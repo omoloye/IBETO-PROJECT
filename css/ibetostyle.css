@@ -1,0 +1,2394 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/*===================navigation area=========================*/
+h4{
+    
+    color: #ffaa00;
+    font-size: 30px;
+    background-color: black;
+    opacity: .2;
+
+}
+.main_header_area .navbar-default{
+    background-color: rgb(66, 4, 4);
+    width: 100%;
+    opacity: .8;
+    min-height: 13vh;
+    border: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    padding: 0px;
+    border-radius: 0px;
+}
+
+.main_header_area .navbar-default.scrolled{
+    background: #020008 !important;
+    opacity: .6;
+    transition: 55ms ease;
+}
+
+@media screen and (max-width:991px){
+	.navbar-brand p{
+		display: none;
+		
+	}
+}
+
+@media screen and (max-width:768px){
+	.navbar-brand img{
+        width: 60px;
+        height: 60px;
+		
+	}
+}
+
+.navbar-brand img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+}
+
+.navbar-brand p{
+    position: relative;
+    color: #fff;
+    margin-left: 90px;
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 18px !important;
+    text-transform: capitalize;
+}
+
+
+.main_header_area .navbar-default .navbar-nav{
+    position: relative;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main_header_area .navbar-default .navbar-nav .nav-item .nav-link{
+    color: #ffaa00;
+    transition: all 0.4s ease-in;
+}
+
+.main_header_area .navbar-default .navbar-nav .nav-item .nav-link:hover{
+    color: deepskyblue;
+}
+
+.main_header_area .navbar-default .navbar-nav .nav-item .nav-link:before{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    transform: scale(0);
+    transition: 0.5s;
+    content: "";
+    transform-origin: left;
+    background: deepskyblue;
+}
+
+.main_header_area .navbar-default .navbar-nav .nav-item .nav-link:hover:before{
+    transform-origin: right;
+    transform: scale(1);
+}
+
+.main_header_area .navbar-default .submenu .item{
+    background: #fff;
+    top: 75px;
+    line-height: 50px;
+}
+
+.main_header_area .navbar-default .submenu .item .nav-item{
+    /* position: absolute; */
+    /* right: 0; */
+}
+
+
+.main_header_area .navbar-default .submenu .item .nav-item .nav-link{
+    color: #201f1f;
+    left: 0 !important;
+    line-height: 30px;
+    font-size: 16px;
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+    left: 0;
+    
+}
+/*=================== HOME SECTION area=========================*/
+
+#carousel1 .carousel-inner .item .carousel-caption{
+    font-family:  'Times New Roman', Times, serif;
+    top: 240px !important;
+}
+
+#home_section{
+    min-height: 120vh;
+}
+
+#home_section .home_inner{
+    color: #222222;
+    font-family: sans-serif;
+    margin-top: 60px;
+    /* background: crimson; */
+}
+
+#home_section .home_inner .para1{
+    font-size: 20px;
+}
+
+#home_section .home_inner .para1::first-letter{
+    font-size: 50px;
+}
+
+#home_section .home_inner .para2{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#home_section .home_inner .para3{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#home_section .home_inner .para4{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#home_section .home_inner .para5{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+#home_section .home_inner .para6{
+    font-size: 20px;
+    margin-top: 25px;
+    color: #222222;
+}
+
+
+/*===================END OF HOME SECTION area=========================*/
+
+
+footer{
+   width: 100%;
+   min-height: 80vh;
+   background: #201f1f;
+}
+
+footer .footer-content{
+    margin-top: 80px;
+    font-family:  'lucida';
+}
+
+footer .footer-content h3{
+    color: dodgerblue;
+    margin-bottom: 30px;
+    margin-left: 35px;
+}
+
+footer .footer-content img{
+    margin-bottom: 35px;
+}
+
+footer .footer-content p{
+    color: rgb(94, 93, 93);
+    font-size: 20px;
+}
+
+footer .footer-content span{
+    font-size: 15px;
+    color: honeydew;
+}
+
+footer .footer-content .social_icon a{
+    font-size: 20px;
+    margin-left: 18px;
+    color: honeydew;
+    transition: all 0.3s ease-in;
+}
+
+footer .footer-content .social_icon a:hover{
+    color:rgb(235, 157, 13);
+}
+
+footer .footer-content .link_call i{
+    font-size: 20px;
+    margin-top: 20px;
+    color: #787878;
+    display: block;
+}
+
+footer .footer-content ul{
+    list-style-type: none;
+}
+footer .footer-content ul a{
+    color: rgb(94, 93, 93);
+    line-height: 40px;
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    transition: all 0.4s ease-in-out;
+    display: block;
+}
+
+footer .footer-content ul a:hover{
+    color: rgb(235, 157, 13);
+    text-decoration: none;
+    margin-right: 10px;
+    
+}
+
+footer .footer_inner .form-group{
+    margin-top: 20px;
+}
+footer .footer_inner .form-group .form-control{
+    background-color: #201f1f;
+    width: 40vh;
+    min-height: 8vh;
+    color: #fff;
+}
+footer .footer_inner .form-group .btn{
+    font-family: "montserrat";
+    top: 30px;
+    left: -20px;
+    cursor: pointer;
+    transition: 0.4s;
+	position: relative;
+	overflow: hidden;
+    margin-left: 20px;
+    width: 100px;
+    background: rgb(236, 161, 11);
+    color: #fff;
+}
+footer .footer_inner .form-group .btn1:hover{
+    background: #201f1f;
+}
+
+
+footer .footer_inner .footer_bottom{
+    width: 100%;
+    min-height: 10vh;
+    margin-top: 52px;
+    border-top: 1px solid #fff;
+}
+
+footer .footer_inner .footer_bottom p{
+    font-size: 20px;
+    margin-top: 19px;
+    color: #fff;
+}
+
+
+/*=============================================
+------------##################################
+######################################################################
+##############################################################
+######################################################=========CONTACT SECTION area=========================*/
+
+#contact_banner{
+    width: 100%;
+    min-height: 80vh;
+    /* background: url('../image/new/phone-5190643_1920.jpg'); */
+    background: linear-gradient(rgba(28, 28, 39, 0.5), rgba(28, 28, 39, 0.5)), url('../image/new/phone-5190643_1920.jpg');
+    background-size:cover !important;
+    background-position: center;
+}
+
+#contact_banner .contact_banner_inner h1{
+    font-size: 100px;
+    font-weight: bolder;
+    color: ghostwhite;
+    margin-top: 200px;
+}
+
+@media screen and (max-width:388px){
+	#contact_banner .contact_banner_inner h1{
+		font-size: 50px;
+		
+	}
+}
+
+#contact_banner .contact_banner_inner p{
+    margin-left: 110px;
+    color: ghostwhite;
+    font-size: 20px;
+}
+
+#contact_banner .contact_banner_inner p a{
+    font-size: 20px;
+    color: ghostwhite;
+    transition: all 0.4s ease-in;
+}
+
+#contact_banner .contact_banner_inner p a:hover{
+    color:  rgb(236, 161, 11);
+    text-decoration: none;
+}
+
+/*===================END CONTACT BANNER SECTION area=========================*/
+
+/*===================MAP BANNER SECTION area=========================*/
+
+#map{
+    width: 100%;
+    min-height: 80vh;
+}
+
+#map .map_inner{
+    width: 100%;
+    margin-top: 90px;
+    min-height: 60vh !important;
+    position: relative;
+    overflow: hidden;
+    height: 0;
+}
+
+.map .map_inner iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%!important;
+    height: 100%!important;
+    
+}
+
+@media screen and (max-width:532px){
+	.map .map_inner iframe{
+        min-width: 200px;
+        height: 100px;
+		
+	}
+}
+
+/*===================END OF MAP SECTION area=========================*/
+
+
+/*===================OFFICE HOUR SECTION area=========================*/
+
+#office{
+    width: 100%;
+    min-height: 105vh;
+    margin-top: 80px;
+    background-attachment: fixed !important;
+    background: linear-gradient(rgba(18, 18, 19, 0.5), rgba(18, 18, 19, 0.5)), url(../image/eko.jpg);
+    background-size: cover;
+}
+
+#office .office_inner .office_info_heading h1{
+    margin-top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 50px;
+}
+
+#office .office_inner .office_info_heading h1::before{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    transform: scale(0);
+    transition: 0.5s;
+    content: "";
+    transform-origin: left;
+    background: rgb(1, 6, 82);
+}
+
+#office .office_inner .office_info_heading h1::after{
+    content: "";
+    display: static;
+    width: 200px;
+    height: 5px;
+    transform-origin: center;
+    background-color: red;
+}
+
+#office .office_inner .office_heading_info_content{
+    color: #fff;
+    margin-top: 60px;
+    border: 1px solid gray;
+    width: 100%;
+    min-height: 50vh;
+    text-align: center;
+    padding: 10px;
+    background:  #201f1f;
+    border-radius: 20px;
+    /* border: 1px solid rgb(236, 161, 11); */
+    opacity: 0.7;
+    transition: all 0.6s ease-in-out;
+    /* box-shadow: inset 0px 3px 3px 5px  #201f1f; */
+}
+
+#office .office_inner .office_heading_info_content:hover{
+    background-color:  rgb(236, 161, 11);
+    opacity: default;
+    margin-top: 10px;
+}
+
+#office .office_inner .office_heading_info_content2:hover span{
+    background-color:  rgb(61, 3, 3);
+    transition: all 0.6s ease-in-out;
+}
+
+#office .office_inner .office_heading_info_content span{
+    margin-top: 40px;
+    font-size: 30px;
+    background-color: #201f1f;
+    color: rgb(236, 161, 11);;
+    padding: 15px;
+    border-radius: 50%;
+    width: auto;
+    min-height: auto;
+}
+
+#office .office_inner .office_heading_info_content h3{
+    margin-bottom: 50px;
+}
+
+#office .office_inner .office_heading_info_content p{
+    line-height: 30px;
+    color: #fff;
+}
+
+#office .office_inner .office_heading_info_content2{
+    color: #fff;
+    margin-top: 60px;
+    /* border: 1px solid rgb(236, 161, 11); */
+    width: 100%;
+    min-height: 60vh;
+    text-align: center;
+    padding: 10px;
+    background:  #201f1f;
+    border-radius: 20px;
+    /* box-shadow: inset 0px 3px 3px 5px  #201f1f; */
+    opacity: 0.7;
+    transition: all 0.6s ease-in-out;
+}
+
+#office .office_inner .office_heading_info_content2:hover{
+    background-color:  rgb(236, 161, 11);
+    opacity: default;
+    margin-top: 10px;
+}
+
+#office .office_inner .office_heading_info_content2 span{
+    margin-top: 40px;
+    font-size: 30px;
+    background-color: #201f1f;
+    color: rgb(236, 161, 11);
+    padding: 15px;
+    border-radius: 50%;
+    width: auto;
+    min-height: auto;
+    transition:all 0.6s ease-in-out;
+}
+
+#office .office_inner .office_heading_info_content2:hover span{
+    background-color:  rgb(61, 3, 3);
+}
+
+#office .office_inner .office_heading_info_content2 h3{
+    margin-bottom: 50px;
+}
+
+#office .office_inner .office_heading_info_content2 p{
+    line-height: 30px;
+}
+
+
+
+/*===================END OF OFFICE HOUR SECTION area=========================*/
+
+/*===================FORM SECTION area=========================*/
+
+#form_section{
+    width: 100%;
+    min-height: 120vh;
+}
+
+#form_section .form_inner p{
+    margin-top: 90px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(236, 161, 11);
+}
+
+
+#form_section .form_inner .comnt{
+    margin-top: 25px;
+    
+}
+
+#form_section .form_inner .comnt .col-md-12 textarea{
+   background: #201f1f;
+}
+
+@media screen and (max-width:799px){
+	#form_section .form_inner .comnt .col-md-12 textarea{
+		width: 550px;
+		
+	}
+}
+
+@media screen and (max-width:580px){
+	#form_section .form_inner .comnt .col-md-12 textarea{
+		width: 300px;
+		
+	}
+}
+
+#form_section .form_inner .form-group .form-control{
+    background:  #201f1f;
+}
+
+#form_section .form_inner .form-group ::placeholder{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#form_section .form_inner .form-group .btn{
+    margin-top: 30px;
+    width: 150px;
+    min-height: 50px;
+    background: rgb(236, 161, 11);
+    border: 1px solid #201f1f;
+    transition: all 0.4s ease-in;
+}
+
+#form_section .form_inner .form-group .btn:hover{
+    background: #201f1f;
+}
+
+
+
+/*=============================================
+------------##################################
+######################################################################
+##############################################################
+######################################################=========VISION SECTION area=========================*/
+
+#vision_banner{
+    width: 100%;
+    min-height: 90vh;
+    background: url(../image/riga.jpg);
+    background-size: cover;
+}
+#myvision{
+    font-size: 40px;
+    font-weight: bolder;
+    position: relative;
+    bottom: 70px;
+    left: 280px;
+}
+
+#vision_banner .vision_inner h1{
+    margin-top: 300px;
+    color: antiquewhite;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#vision{
+    width: 100%;
+    min-height: 220vh;
+    position: relative;
+}
+
+#vision .vision_inn .vision_content{
+    position: relative;
+    width: calc(400px - 30px);
+    min-height: calc(300px - 30px);
+    margin-top: 100px;
+    background-color: #043450;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+@media screen and (max-width:1109px){
+	#vision .vision_inn .vision_content{
+		display: block;
+		width: 100%;
+	}
+}
+
+
+#vision .vision_inn .vision_content .icono{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+    z-index: 1;
+    background-color:transparent
+}
+
+#vision .vision_inn .vision_content:hover .icono{
+    top: 20px;
+    left: calc(50% - 40px);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+#vision .vision_inn .vision_content .icono .glyphicon{
+    position: absolute;
+    top: 50%;
+    left: 50%;transform: translate(-50%,-50%);
+    font-size: 80px;
+    transition: all 0.5;
+    color: #fff;
+}
+
+#vision .vision_inn .vision_content:hover .icono .glyphicon{
+    font-size: 40px;
+}
+
+#vision .vision_inn .vision_content .content_info{
+    position: absolute;
+    height: calc(100% - 100px);
+    text-align: center; 
+    padding: 20px;
+    box-sizing: border-box;
+    top: 90%;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    transition: all 0.5s;
+    opacity: 0;
+}
+
+#vision .vision_inn .vision_content:hover .content_info{
+    top: 80px;
+    opacity: 1;
+}
+
+#vision .vision_inn .vision_content .content_info h3{
+    margin: 0 0 10px;
+    padding: 0;
+    font-size: 25px;
+}
+
+#vision .vision_inn .vision_content .content_info p{
+    margin: 0;
+    padding: 0;
+}
+
+/* #vision .vision_content:nth-child(1) .icono{
+    background-color: rgb(70, 66, 58);
+}
+
+#vision .vision_content:nth-child(1){
+    background-color: blueviolet;
+}
+
+#vision .vision_content:nth-child(2) .icono{
+    background-color: rgb(4, 33, 88);
+}
+
+#vision .vision_content:nth-child(2){
+    background-color: rgb(226, 43, 195);
+} */
+
+/*=============================================
+------------##################################
+######################################################################
+##############################################################
+######################################################=========VALUES & STRATEGIES SECTION area=========================*/
+
+
+
+#strength{
+    width: 100%;
+    min-height: 60vh;
+    background: url(../image/about.jpg);
+    background-size: cover;
+}
+
+
+#strength .strength_inn{
+    margin-top:200px;
+}
+
+#strength .strength_inn h1{
+    font-size: 50px;
+    color: papayawhip;
+    font-weight: bold;
+}
+
+/*===================Strategies SECTION area=========================*/
+
+#strategies_home{
+    width: 100%;
+    min-height: 90vh;
+}
+
+#strategies_home .strategies_inner .strat_inner{
+    margin-top: 100px;
+}
+
+#strategies_home .strategies_inner .strat_inner h1{
+    text-align: center;
+    font-size: 25x;
+    margin-top: 140px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #201f1f;
+}
+
+#strategies_home .strategies_inner .strat_inner ul{
+    margin-left: 100px;
+    color: #201f1f;
+    line-height: 50px;
+    list-style-type: square;
+}
+
+
+/*===================Strenght SECTION area=========================*/
+
+#strat_cover{
+    width: 100%;
+    min-height: 90vh;
+}
+
+#strat_cover .strat_cover_inner .strat_work_content{
+    margin-top: 100px;
+}
+
+#strat_cover .strat_cover_inner .strat_work_content h1{
+    text-align: center;
+    font-size: 25x;
+    margin-top: 140px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #201f1f;
+}
+
+#strat_cover .strat_cover_inner .strat_work_content ul{
+    margin-left: 100px;
+    color: #201f1f;
+    line-height: 50px;
+    list-style-type: square;
+}
+
+
+
+
+
+/*=============================================
+------------##################################
+######################################################################
+##############################################################
+######################################################=========DIRECTORS SECTION area=========================*/
+
+/*-===================BANNER OF Director=========================*/
+
+#director_banner{
+    width: 100%;
+    min-height: 70vh;
+    background: url(../image/history-bg.jpg);
+}
+
+
+#director_banner h1{
+    margin-top: 200px;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*-===================MAIN CONTAINER of Director=========================*/
+
+#director_home{
+    width: 100%;
+    min-height: 680vh;
+    overflow-x: hidden;
+}
+
+/*-===================ALL BOX OF DIRECTORS =========================*/
+
+
+#director_home .director_Inner .director_info{
+    margin-top: 100px;
+    text-align: center;
+    background-color:rgba(225, 225, 225, 0.7);
+    border-radius: 20px;
+    box-shadow: 5px 5px rgb(197, 197, 197);
+    transition: all 0.4s ease;
+}
+
+#director_home .director_Inner .director_info:hover{
+    box-shadow: 3px 3px 10px  #201f1f;
+}
+
+#director_home .director_Inner .director_info img{
+    position: relative;
+    bottom: 50px;
+}
+
+
+#director_home .director_Inner .director_info h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:  rgb(236, 161, 11);
+}
+
+#director_home .director_Inner .director_info .position{
+    text-align: center;
+    font-family: palatino;
+    color: #201f1f;
+}
+
+
+#director_home .director_Inner .director_info .toggle{
+    height: 100px;
+    overflow: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #201f1f;
+}
+
+#director_home .director_Inner .director_info.showContent .toggle{
+    height: auto;
+}
+
+
+
+#director_home .director_Inner .director_info a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(236, 161, 11);
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+#director_home .director_Inner .director_info.showContent a.readmore-btn{
+    background-color: #201f1f;
+}
+
+#director_home .director_Inner .director_info a:hover{
+    border-radius: 0 5px 5px lightgreen;
+}
+
+
+
+/*-===================last box of Director=========================*/
+
+
+#director_home .director_Inner .director_info_middle{
+    margin-top: 100px;
+    text-align: center;
+    background-color:rgba(225, 225, 225, 0.7);
+    border-radius: 20px;
+    box-shadow: 5px 5px rgb(197, 197, 197);
+    transition: all 0.4s ease;
+}
+
+#director_home .director_Inner .director_info_middle:hover{
+    box-shadow: 3px 3px 10px  #201f1f;
+}
+
+#director_home .director_Inner .director_info_middle h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:  rgb(236, 161, 11);
+}
+
+#director_home .director_Inner .director_info_middle .position{
+    text-align: center;
+    font-family: palatino;
+    color: #201f1f;
+}
+
+#director_home .director_Inner .director_info_middle .toggle{
+    height: 100px;
+    overflow: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #201f1f;
+}
+
+#director_home .director_Inner .director_info_middle.showContent .toggle{
+    height: auto;
+}
+
+#director_home .director_Inner .director_info_middle a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgb(236, 161, 11);
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+#director_home .director_Inner .director_info_middle.showContent a.readmore-btn{
+    background-color: #201f1f;
+}
+
+.gotop-btn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(3, 108, 150);
+    border-radius: 10px;
+    bottom: 40px;
+    right: 80px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: #fff;
+    font-size: 22px;
+    z-index: 1000!important;
+    
+}
+
+
+/*-===================NEW DIRECTORS PAGE Director=========================*/
+
+#direct{
+    width: 100%;
+    min-height: 80vh;
+    background: linear-gradient(rgba(28, 28, 39, 0.5), rgba(28, 28, 39, 0.5)), url(../image/conference-room.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#direct .direct_inner h1{
+    margin-top: 240px;
+    color: #fff;
+}
+
+#direct .direct_inner p{
+    color: #fff;
+    margin-left: 100px;
+}
+
+#direct .direct_inner a{
+    color: #fff;
+}
+
+#direct .direct_inner a:hover{
+    text-decoration: none;
+    color:rgb(236, 161, 11);
+}
+
+
+#direct_home{
+    width: 100%;
+    min-height: 90vh;
+    background: rgb(28, 168, 145);
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+}
+
+#direct_home .direct_wrapper_content{
+    margin-top: 50px;
+}
+
+#direct_home .direct_wrapper_content h1{
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+
+#direct_home .direct_wrapper_content .btn{
+    align-items: right;
+    border: none;
+    padding: 12px 16px;
+    cursor: pointer;
+    background: green
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+ 
+
+#direct_home .direct_wrapper_content .btn:hover{
+    margin-right: 5px;
+    background-color:rgb(235, 157, 13);
+}
+
+#operators{
+    min-height: 310vh;
+    background-color: lightgray;
+}
+
+#operators .board_intro{
+    margin-top: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#operators .board_intro hr{
+    min-height: 3px;
+    background: rgb(235, 157, 13);
+    width: 150px;
+}
+
+
+
+#operators .board_operators .whi_te{
+    background: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center;
+}
+
+#operators .board_operators .whi_te a{
+    position: relative;
+    text-align: center;
+}
+
+#operators .board_operators .whi_te a:hover{
+    text-decoration: none;
+}
+
+#operators .co-ordinator a .card-body h4{
+    color: yellow !important;
+    font-weight: bolder;
+    background-color: black !important;
+}
+
+#operators .co-ordinator a .card-body p{
+    color: black;
+}
+
+#operators .board_operators .whi_te a img{
+    margin-left: 30px;
+}
+
+#operators .board_operators .co-ordinator{
+    margin-top: 100px;
+}
+
+
+
+/*=============================================
+------------##################################
+######################################################################
+##############################################################
+######################################################=========MR CLETUS CEO SECTION area=========================*/
+
+
+#mr_cletus_heading{
+    min-height: 100px;
+    background-color: lightgray;
+}
+
+
+#mr_cletus_heading .mr_cletus_inner{
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: right;
+}
+
+#mr_cletus_heading .mr_cletus_inner a{
+    color: rgb(29, 102, 161);
+    transition: all 0.3s ease-in;
+}
+#mr_cletus_heading .mr_cletus_inner a:hover{
+    color:  rgb(235, 157, 13);
+    text-decoration: none;
+}
+
+
+#ceo_mr_cletus{
+    min-height: 120vh;
+}
+
+
+#ceo_mr_cletus .ceo_inner{
+    display: inline-block;
+    margin-top: 100px;
+    line-height: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#ceo_mr_cletus .ceo_inner img{
+    margin-right: 60px;
+    margin-bottom: 50px;
+}
+
+#ceo_mr_cletus .ceo_inner h1{
+    margin-top: 70px;
+    font-size: 40px;
+}
+
+#ceo_mr_cletus .ceo_inner hr{
+    background: lightgray;
+    min-height: 3px;
+}
+
+
+/*=============================================
+------------##################################
+######################################################################
+##############################################################
+######################################################=========SERVICES PAGE SECTION area=========================*/
+
+
+
+#service_banner{
+    background: linear-gradient(rgba(28, 28, 39, 0.5), rgba(28, 28, 39, 0.5)), url(../image/about.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    overflow: hidden;
+    text-align: center;
+}
+
+#service_banner h1{
+    margin-top: 190px;
+    color: #fff;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#service_banner a{
+    font-size: 20px;
+    color: #fff;
+}
+#service_banner .yellow{
+    color:  rgb(236, 161, 11);
+}
+
+#service_banner a:hover{
+    text-decoration: none;
+}
+
+#service_banner span{
+    font-size: 20px;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#service_banner .goto{
+    top: 80px;
+    position: relative;
+    font-size: 40px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/*===============Why Us section========================*/
+
+#why_us{
+    width: 100%;
+    min-height: 80vh;
+    background: #222222;
+    color: #fff;
+}
+
+#why_us .why_us_inner h1{
+    margin-top: 130px;
+    margin-left: 200px;
+    font-weight: bold;
+    
+}
+
+@media screen and (max-width:487px){
+	#why_us .why_us_inner h1{
+		margin-left: 30px;
+		
+	}
+}
+
+#why_us .why_us_inner p{
+    margin-left: 200px;
+    color:  rgb(236, 161, 11);
+}
+@media screen and (max-width:487px){
+	#why_us .why_us_inner p{
+		margin-left: 30px;
+		
+	}
+}
+
+#why_us .why_us_inner ul li{
+    margin-left: 165px;
+    list-style-type: none;
+    color: #fff;
+    margin-top: 30px;
+    display: block;
+    transition: all 0.3s ease-in-out;
+}
+
+#why_us .why_us_inner ul li:hover{
+    margin-right: 5px !important;
+}
+
+@media screen and (max-width:487px){
+	#why_us .why_us_inner ul li{
+		margin-left: 30px;
+	}
+}
+
+
+#why_us .why_us_inner video{
+    margin-top: 80px;
+}
+
+
+/*=========================What_we_do Container===========================*/
+
+
+#What_we_do{
+    width: 100%;
+    min-height: 230vh;
+}
+
+#What_we_do .what_we_do_inner .what_we_do_content{
+    margin-top: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    min-height: 55vh;
+    text-align: center;
+    background-color: grey;
+}
+
+#What_we_do .what_we_do_inner .what_we_do_content img{
+    min-height: 350px;
+}
+
+#What_we_do .what_we_do_inner .what_we_do_content a{
+    color: #fff;
+}
+
+#What_we_do .what_we_do_inner .what_we_do_content a:hover{
+    text-decoration: none;
+}
+
+#What_we_do .what_we_do_inner .what_we_do_content .content_inner h4{
+    padding: 5px;
+    border-radius: 5px;
+    opacity: 0.9;
+}
+
+#What_we_do .what_we_do_inner .what_we_do_content .content_inner{
+    position: relative;
+    margin-top: -200px !important;
+    color: #fff;
+}
+
+#What_we_do .what_we_do_inner .what_we_do_content .content_inner .btn{
+    background-color: rgb(235, 157, 13);
+    border: none;
+}
+
+/*=============================================
+------------##################################
+######################################################################
+##############################################################
+######################################################=========SERVICES Sub-section PAGE SECTION area=========================*/
+
+
+/*=========================auto Wrapper Container===========================*/
+
+#auto{
+    background: linear-gradient(rgba(28, 28, 39, 0.5), rgba(28, 28, 39, 0.5)), url(../image/LeadRecycling.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#auto h1{
+    margin-top: 200px;
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align: center;
+}
+#auto{
+    text-align: center;
+    font-size: 20px;
+    text-transform: lowercase;
+}
+
+/*=========================ABOUT AUTOPARTS Wrapper Container===========================*/
+
+#about_auto{
+    min-height: 68vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#about_auto .about_auto_parts .about_auto_parts_content{
+    margin-top: 60px;
+}
+
+#about_auto .about_auto_parts .about_auto_parts_content h1{
+    font-weight: bold;
+}
+
+#about_auto .about_auto_parts .about_auto_parts_content p{
+    margin-top: 30px;
+}
+
+#Figures{
+    min-height: 85vh;
+    background: lightgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#Figures .figure_inner .keyheading{
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+#Figures .figure_inner .figures_content{
+    background: #fff;
+    text-align: center;
+    width: auto;
+    min-height: auto;
+    padding: 50px;
+    min-height: 40vh;
+    margin-top: 30px;
+    display: block;
+    transition: all 0.4s ease-in;
+}
+
+#Figures .figure_inner .figures_content:hover{
+    box-shadow: 2px 2px 3px 3px rgb(164, 165, 165);
+    margin-top: 3px;
+}
+
+#Figures .figure_inner .figures_content h1{
+    font-weight: bold;
+}
+
+#brand{
+    min-height: 120vh;
+}
+
+#brand .brand_start{
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+#brand .brand_info{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    min-height: 70vh;
+    margin-top: 100px;
+}
+
+#brand .brand_info img{
+    min-height: 350px;
+}
+#brand .brand_info h1{
+    font-size: 25px;
+}
+
+
+
+/*=============================================
+------------##################################
+######################################################################
+##############################################################
+######################################################=========SERVICES Sub-section PAGE SECTION area=========================*/
+
+
+
+
+/*=========================PETROL Wrapper Container===========================*/
+
+#petrol{
+    background: linear-gradient(rgba(28, 28, 39, 0.5), rgba(28, 28, 39, 0.5)), url(../image/TankFarm.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#petrol h1{
+    margin-top: 200px;
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+/*=========================PETROCHEMICAL Wrapper ContENT===========================*/
+
+#petroChem{
+    min-height: 83vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#petroChem .chemical_content{
+    margin-top: 7em;
+}
+
+#petroChem .chemical_content p{
+    margin-bottom: 20px;
+}
+
+
+/*=========================PETROCHEMICAL chemical_worth Wrapper ContENT===========================*/
+
+#chemical_worth{
+    min-height: 85vh;
+    background: lightgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#chemical_worth .chemical_worth_inner .empo_head{
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+#chemical_worth .chemical_worth_inner .worth_inner_info{
+    background: #fff;
+    text-align: center;
+    width: auto;
+    min-height: auto;
+    padding: 50px;
+    min-height: 40vh;
+    margin-top: 30px;
+    display: block;
+    transition: all 0.4s ease-in;
+}
+
+#chemical_worth .chemical_worth_inner .worth_inner_info:hover{
+    box-shadow: 2px 2px 3px 3px rgb(164, 165, 165);
+    margin-top: 3px;
+}
+
+#chemical_worth .chemical_worth_inner .worth_inner_info h1{
+    font-weight: bold;
+}
+/*=========================End Wrapper Container===========================*/
+
+/*=========================Petro_chemical Wrapper Container===========================*/
+
+#petro_limited{
+    min-height: 120vh;
+}
+
+#petro_limited .petro_indus{
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+#petro_limited .petro_indus_content{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    min-height: 70vh;
+    margin-top: 100px;
+}
+
+#petro_limited .petro_indus_content img{
+    min-height: 350px;
+}
+#petro_limited .petro_indus_content h1{
+    font-size: 25px;
+}
+
+
+
+/*=============================================
+------------##################################
+######################################################################
+##############################################################
+######################################################=========CEMENT ALL-section PAGE SECTION area=========================*/
+
+
+/*=========================CEMENT Wrapper Container===========================*/
+
+#cement{
+    background: linear-gradient(rgba(28, 28, 39, 0.5), rgba(28, 28, 39, 0.5)), url(../image/Pic-1.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#cement .cement_head h1{
+    margin-top: 200px;
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#cementinfo{
+    min-height: 120vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#cementinfo .cement_secondhead{
+    margin-top: 7em;
+}
+
+#cementinfo .cement_secondhead p{
+    margin-bottom: 20px;
+}
+
+#Ibeto_cement{
+    min-height: 85vh;
+    background: lightgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#Ibeto_cement .Ibeto_cement_inner .ibeti_head{
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+#Ibeto_cement .Ibeto_cement_inner .Ibeto_cement_info{
+    background: #fff;
+    text-align: center;
+    width: auto;
+    min-height: auto;
+    padding: 50px;
+    min-height: 40vh;
+    margin-top: 30px;
+    display: block;
+    transition: all 0.4s ease-in;
+}
+
+#Ibeto_cement .Ibeto_cement_inner .Ibeto_cement_info:hover{
+    box-shadow: 2px 2px 3px 3px rgb(164, 165, 165);
+    margin-top: 3px;
+}
+
+#Ibeto_cement .Ibeto_cement_inner .Ibeto_cement_info h1{
+    font-weight: bold;
+}
+
+#cement_limited{
+    min-height: 120vh;
+}
+
+#cement_limited .cement_industry{
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+#cement_limited .cement_industry_content{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    min-height: 70vh;
+    margin-top: 100px;
+}
+
+#cement_limited .cement_industry_content img{
+    min-height: 350px;
+}
+
+#cement_limited .cement_industry_content h1{
+    font-size: 25px;
+}
+
+
+/*=============================================
+------------##################################
+######################################################################
+##############################################################
+######################################################=========IBETO HOTEL ABJ SECTION area=========================*/
+
+
+/*=========================IBETO HOTEL ABJ Wrapper Container===========================*/
+
+#ibeto_hotel{
+    background: linear-gradient(rgba(28, 28, 39, 0.5), rgba(28, 28, 39, 0.5)), url(../image/Hotel-img-21.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#ibeto_hotel h1{
+    margin-top: 200px;
+    font-size: 40px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+#ibeto_hot{
+    min-height: 40vh;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+#ibeto_hot .ibeto_hot_inn .ibeto_hot_content{
+    margin-top: 7em;
+}
+
+#ibeto_hot .ibeto_hot_inn .ibeto_hot_content p{
+    margin-bottom: 20px;
+}
+
+/*=========================ibeto_hotel_worth Wrapper Container===========================*/
+
+#ibeto_hotel_worth{
+    min-height: 85vh;
+    background: lightgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#ibeto_hotel_worth .ibeto_hotel_worth_inner .ibeto_hotel_worth_head{
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+#ibeto_hotel_worth .ibeto_hotel_worth_inner .ibeto_hotel_worth_inner_info{
+    background: #fff;
+    text-align: center;
+    width: auto;
+    min-height: auto;
+    padding: 50px;
+    min-height: 40vh;
+    margin-top: 30px;
+    display: block;
+    transition: all 0.4s ease-in;
+}
+
+#ibeto_hotel_worth .ibeto_hotel_worth_inner .ibeto_hotel_worth_inner_info:hover{
+    box-shadow: 2px 2px 3px 3px rgb(164, 165, 165);
+    margin-top: 3px;
+}
+
+#ibeto_hotel_worth .ibeto_hotel_worth_inner .ibeto_hotel_worth_inner_info h1{
+    font-weight: bold;
+}
+
+
+#cement_limited{
+    min-height: 120vh;
+}
+
+#cement_limited .cement_industry{
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+#cement_limited .cement_industry_content{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    min-height: 70vh;
+    margin-top: 100px;
+}
+
+#cement_limited .cement_industry_content img{
+    min-height: 350px;
+}
+
+#cement_limited .cement_industry_content h1{
+    font-size: 25px;
+}
+
+
+/*=============================================
+------------##################################
+######################################################################
+##############################################################
+######################################################=========IBETO HOTEL ABJ SECTION area=========================*/
+
+/*=========================king_palace First Wrapper Container===========================*/
+#king{
+    background: linear-gradient(rgba(28, 28, 39, 0.5), rgba(28, 28, 39, 0.5)), url(../image/kp.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#king h1{
+    margin-top: 200px;
+    font-size: 40px;
+    text-transform: capitalize !important;
+    text-align: center;
+}
+
+
+#kings_in{
+    min-height: 40vh;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+#kings_in .kings_in_palace .kings_in_placement{
+    margin-top: 7em;
+}
+
+#kings_in .kings_in_palace .kings_in_placement p{
+    margin-bottom: 20px;
+}
+
+/*=========================king_palace Second Wrapper Container===========================*/
+
+#all_kings_palace{
+    min-height: 85vh;
+    background: lightgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#all_kings_palace .all_kings_palace_inner .all_kings_palace_head{
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+#all_kings_palace .all_kings_palace_inner .all_kings_palace_info{
+    background: #fff;
+    text-align: center;
+    width: auto;
+    min-height: auto;
+    padding: 50px;
+    min-height: 40vh;
+    margin-top: 30px;
+    display: block;
+    transition: all 0.4s ease-in;
+}
+
+
+
+#all_kings_palace .all_kings_palace_inner .all_kings_palace_info:hover{
+    box-shadow: 2px 2px 3px 3px rgb(164, 165, 165);
+    margin-top: 3px;
+}
+
+#all_kings_palace .all_kings_palace_inner .all_kings_palace_info h1{
+    font-weight: bold;
+}
+
+/*=========================king_palace third Wrapper Container===========================*/
+#king_palace_show{
+    min-height: 120vh;
+}
+
+#king_palace_show .king_palace_show-head{
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+#king_palace_show .king_palace_show_content{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    min-height: 70vh;
+    margin-top: 100px;
+}
+
+#king_palace_show .king_palace_show_content img{
+    min-height: 350px;
+}
+
+#king_palace_show .king_palace_show_content h1{
+    font-size: 25px;
+}
+
+/*=============================================
+------------##################################
+######################################################################
+##############################################################
+######################################################=========energy ALL-section PAGE SECTION area=========================*/
+
+
+/*=========================energy first Wrapper Container===========================*/
+
+#energy{
+    background: linear-gradient(rgba(28, 28, 39, 0.5), rgba(28, 28, 39, 0.5)), url(../image/tanker-ship-5117014_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+#energy h1{
+    margin-top: 200px;
+    font-size: 40px;
+    text-transform: capitalize !important;
+    text-align: center;
+}
+
+#energy_in{
+    min-height: 40vh;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+#energy_in .energy_in_net .energy_in_head{
+    margin-top: 7em;
+}
+
+#energy_in .energy_in_net .energy_in_head p{
+    margin-bottom: 20px;
+}
+
+/*=========================energy second Wrapper Container===========================*/
+
+#energy_netw{
+    min-height: 85vh;
+    background: lightgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#energy_netw .energy_netw_inner .energy_netw_head{
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+#energy_netw .energy_netw_inner .energy_netw_info{
+    background: #fff;
+    text-align: center;
+    width: auto;
+    min-height: auto;
+    padding: 50px;
+    min-height: 40vh;
+    margin-top: 30px;
+    display: block;
+    transition: all 0.4s ease-in;
+}
+
+
+#energy_netw .energy_netw_inner .energy_netw_info:hover{
+    box-shadow: 2px 2px 3px 3px rgb(164, 165, 165);
+    margin-top: 3px;
+}
+
+#energy_netw .energy_netw_inner .energy_netw_info h1{
+    font-weight: bold;
+}
+
+/*=========================third energy Wrapper Container===========================*/
+
+#energy_ibg_show{
+    min-height: 120vh;
+}
+
+#energy_ibg_show .energy_ibg_show-head{
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+#energy_ibg_show .energy_ibg_show_content{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    min-height: 70vh;
+    margin-top: 100px;
+}
+
+#energy_ibg_show .energy_ibg_show_content img{
+    min-height: 350px;
+}
+
+#energy_ibg_show .energy_ibg_show_content h1{
+    font-size: 25px;
+}
+
+
+/*=============================================
+------------##################################
+######################################################################
+##############################################################
+######################################################=========energy ALL-section PAGE SECTION area=========================*/
+
+
+/*=========================plamex first Wrapper Container===========================*/
+
+
+
+#plamex{
+    background: linear-gradient(rgba(28, 28, 39, 0.5), rgba(28, 28, 39, 0.5)), url(../image/shipp.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#plamex h1{
+    margin-top: 200px;
+    font-size: 40px;
+    text-transform: capitalize !important;
+    text-align: center;
+}
+
+#plamex_in{
+    min-height: 40vh;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+#plamex_in .plamex_in_net .plamex_in_head{
+    margin-top: 7em;
+}
+
+#plamex_in .plamex_in_net .plamex_in_head p{
+    margin-bottom: 20px;
+}
+
+/*=========================palmex second Wrapper Container===========================*/
+
+#palmex_agent{
+    min-height: 85vh;
+    background: lightgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#palmex_agent .palmex_agent_inner .palmex_agent_head{
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+#palmex_agent .palmex_agent_inner .palmex_agent_info{
+    background: #fff;
+    text-align: center;
+    width: auto;
+    min-height: auto;
+    padding: 50px;
+    min-height: 40vh;
+    margin-top: 30px;
+    display: block;
+    transition: all 0.4s ease-in;
+}
+
+
+#palmex_agent .palmex_agent_inner .palmex_agent_info:hover{
+    box-shadow: 2px 2px 3px 3px rgb(164, 165, 165);
+    margin-top: 3px;
+}
+
+#palmex_agent .palmex_agent_inner .palmex_agent_info h1{
+    font-weight: bold;
+}
+
+
+/*=========================third energy Wrapper Container===========================*/
+
+#palmex_agencies_show{
+    min-height: 120vh;
+}
+
+#palmex_agencies_show .palmex_agencies_show-head{
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+#palmex_agencies_show .palmex_agencies_show_content{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    min-height: 70vh;
+    margin-top: 100px;
+}
+
+#palmex_agencies_show .palmex_agencies_show_content img{
+    min-height: 350px;
+}
+
+#palmex_agencies_show .palmex_agencies_show_content h1{
+    font-size: 25px;
+}
+
+
+/*=============================================
+------------##################################
+######################################################################
+##############################################################
+######################################################=========industry ALL-section PAGE SECTION area=========================*/
+
+
+/*=========================industry first Wrapper Container===========================*/
+
+
+#industry{
+    background: linear-gradient(rgba(28, 28, 39, 0.5), rgba(28, 28, 39, 0.5)), url(../image/Industry.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#industry h1{
+    margin-top: 200px;
+    font-size: 40px;
+    text-transform: capitalize !important;
+    text-align: center;
+}
+
+#industry_in{
+    min-height: 60vh;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+#industry_in .industry_in_net .industry_in_head{
+    margin-top: 7em;
+}
+
+#industry_in .industry_in_net .industry_in_head p{
+    margin-bottom: 20px;
+}
+
+
+
+
+/*=========================industry second Wrapper Container===========================*/
+
+#industry_agent{
+    min-height: 85vh;
+    background: lightgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#industry_agent .industry_agent_inner .industry_agent_head{
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+#industry_agent .industry_agent_inner .industry_agent_info{
+    background: #fff;
+    text-align: center;
+    width: auto;
+    min-height: auto;
+    padding: 50px;
+    min-height: 40vh;
+    margin-top: 30px;
+    display: block;
+    transition: all 0.4s ease-in;
+}
+
+
+#industry_agent .industry_agent_inner .industry_agent_info:hover{
+    box-shadow: 2px 2px 3px 3px rgb(164, 165, 165);
+    margin-top: 3px;
+}
+
+#industry_agent .industry_agent_inner .industry_agent_info h1{
+    font-weight: bold;
+}
+
+
+/*=========================third energy Wrapper Container===========================*/
+
+#industry_show{
+    min-height: 120vh;
+}
+
+#industry_show .industry-head{
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+#industry_show .industry_show_content{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    min-height: 70vh;
+    margin-top: 100px;
+}
+
+#industry_show .industry_show_content img{
+    min-height: 350px;
+}
+
+#industry_show .industry_show_content h1{
+    font-size: 25px;
+}
+
+
+
+/*=============================================
+------------##################################
+######################################################################
+##############################################################
+######################################################=========industry ALL-section PAGE SECTION area=========================*/
+
+
+/*=========================industry first Wrapper Container===========================*/
+
+
+#banking{
+    background: linear-gradient(rgba(28, 28, 39, 0.5), rgba(28, 28, 39, 0.5)), url(../image/portfolio.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#banking h1{
+    margin-top: 200px;
+    font-size: 40px;
+    text-transform: capitalize !important;
+    text-align: center;
+}
+
+#banking_in{
+    min-height: 40vh;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+#banking_in .banking_in_net .banking_in_head{
+    margin-top: 7em;
+}
+
+#banking_in .banking_in_net .banking_in_head p{
+    margin-bottom: 20px;
+}
+
+
+/*=========================industry second Wrapper Container===========================*/
+
+#banking_agent{
+    min-height: 85vh;
+    background: lightgrey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#banking_agent .banking_agent_inner .banking_agent_head{
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+#banking_agent .banking_agent_inner .banking_agent_info{
+    background: #fff;
+    text-align: center;
+    width: auto;
+    min-height: auto;
+    padding: 50px;
+    min-height: 40vh;
+    margin-top: 30px;
+    display: block;
+    transition: all 0.4s ease-in;
+}
+
+
+#banking_agent .banking_agent_inner .banking_agent_info:hover{
+    box-shadow: 2px 2px 3px 3px rgb(164, 165, 165);
+    margin-top: 3px;
+}
+
+#banking_agent .banking_agent_inner .banking_agent_info h1{
+    font-weight: bold;
+}
+
+
+
+/*=========================third energy Wrapper Container===========================*/
+
+#banking_show{
+    min-height: 120vh;
+}
+
+#banking_show .banking-head{
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+#banking_show .banking_show_content{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+    min-height: 70vh;
+    margin-top: 100px;
+}
+
+#banking_show .banking_show_content img{
+    min-height: 350px;
+}
+
+#banking_show .banking_show_content h1{
+    font-size: 25px;
+}
+
+/*=========================services Wrapper Container===========================*/
+
+#david{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.owl-prev{
+    left:-4px;
+}
+
+.owl-next{
+    right: -4px;
+}
+
+.owl-prev , .owl-next{
+    position: absolute;
+    top: 30%;
+} 
+.owl-prev span, .owl-next span{
+    font-size: 60px;
+    color: #787878;
+}
+
+.owl-theme .owl-nav [class*="owl-"]:hover{
+    background-color: transparent;
+}
+
+
+
+
+/*=============================================
+------------##################################
+######################################################################
+##############################################################
+######################################################=========VaLUES AND HISTORY SECTION area=========================*/
+
+
+/*values upper container*/
+
+#values{
+    width: 100%;
+    min-height:60vh;
+    background: url(../image/history.jpg);
+    background-size: cover;
+}
+
+#values h1{
+    margin-top: 200px;
+    font-size: 60px;
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/*-------===============values inner container*/
+
+#values_inner{
+    width: 100%;
+    min-height: 400vh;
+}
+
+#values_inner .values_wrapper .Vals_inner_content{
+    margin-top: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+#values_inner .values_wrapper .Vals_inner_content img{
+    transition: all 0.3s ease-in;
+}
+
+#values_inner .values_wrapper .Vals_inner_content img:hover{
+    opacity: 0.5;
+}
+
+#values_inner .values_wrapper .Vals_inner_content h1{
+    margin-top: 160px;
+    text-align: center;
+}
+
+#values_inner .values_wrapper .Vals_inner_content p{
+    margin-top: 30px;
+    text-align: center;
+}
+
+#values_inner .values_wrapper .Vals_inner_content2{
+    margin-top: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#values_inner .values_wrapper .Vals_inner_content2 img{
+    margin-top: 200px;
+    transition: all 0.3s ease-in;
+}
+
+#values_inner .values_wrapper .Vals_inner_content2 img:hover{
+    opacity: 0.5;
+}
+
+#values_inner .values_wrapper .Vals_inner_content2 h1{
+    margin-top: 160px;
+    text-align: center;
+}
+
+#values_inner .values_wrapper .Vals_inner_content2 p{
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+
+/*=============================================
+------------##################################
+######################################################################
+##############################################################
+######################################################=========COORDINATORS SECTION area=========================*/
+
+
+#coordinators{
+    width: 100%;
+    min-height: 200vh;
+}
+
+#coordinators .coordinators_inner .coordinators_content{
+    min-height: 50vh;
+    margin-top: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+#coordinators .coordinators_inner .coordinators_content img{
+    width: 100%;
+    min-height: 30vh;
+}
+
+#coordinators .coordinators_inner .content_info{
+        width: 250px;
+        height: 300px;
+        background-color: transparent;
+        color: white;
+        position: absolute;
+        top: 0;
+        left: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transform: translateY(100%);
+        opacity: 0;
+        transition: all 0.5s;
+}
+
+#coordinators .coordinators_inner .content_info h3{
+    transform: translateY(60px);
+    transition: all 1s;
+    color: #fff;
+}
+
+#coordinators .coordinators_inner .content_info p{
+        transform: translateY(60px);
+        transition: all 1.5s;
+        color: darkorange;
+}
+#coordinators .coordinators_inner .content_info .social{
+        margin: 10px 30px;
+        transform: translateY(60px);
+        font-size: 25px;
+        margin-left: 10px;
+        transition: all 1.5s;
+}
+
+#coordinators .coordinators_inner .content_info .social a{
+    color:lightgray;
+}
+
+#coordinators .coordinators_inner:hover > .content_info h3{
+    transform: translateY(0px);
+}
+
+#coordinators .coordinators_inner:hover > .content_info p{
+    transform: translateY(0px);
+}
+
+#coordinators .coordinators_inner:hover > .content_info .social{
+    transform: translateY(0px);
+}
+
+#coordinators .coordinators_inner:hover .content_info{
+    opacity: 1;
+    transform: translateY(25%);
+}
